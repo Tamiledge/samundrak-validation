@@ -1,0 +1,42 @@
+{
+  "name": "samundrak-validation",
+
+  "version": "1.0.1",
+  "description": "Expressive schema and raw validator for nodejs/web",
+  "main": "lib/validator.js",
+  "homepage": "http://indicative.adonisjs.com",
+  "dependencies": {
+    "async": "^0.9.0",
+    "bluebird": "^2.9.14",
+    "coffee-script": "^1.9.2",
+    "dot-object": "^0.11.0",
+    "is_js": "^0.7.1",
+    "lodash": "^3.10.0",
+    "moment": "^2.9.0"
+  },
+  "devDependencies": {
+    "benchmark": "1.0.x",
+    "chai": "^2.3.0",
+    "joi": "6.1.x",
+    "gulp": "^3.8.11",
+    "gulp-coffeelint": "^0.4.0",
+    "mocha": "^2.2.4"
+  },
+  "scripts": {
+    "test": "mocha test --reporter spec --check-leaks --bail",
+    "postinstall": "coffee -c ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AdonisJs/indicative"
+  },
+  "keywords": [
+    "schema-validator",
+    "raw-validator",
+    "node-validator",
+    "nodejs-validations",
+    "nodejs-simple-validations"
+  ],
+  "author": "amanvirk <virk.officials@gmail.com>",
+  "license": "MIT"
+}
