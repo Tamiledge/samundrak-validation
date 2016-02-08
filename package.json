@@ -1,7 +1,7 @@
 {
   "name": "samundrak-validation",
 
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Expressive schema and raw validator for nodejs/web",
   "main": "lib/validator.js",
   "homepage": "https://github.com/samundrak/samundrak-validation",
@@ -23,8 +23,8 @@
     "mocha": "^2.2.4"
   },
   "scripts": {
-    "test": "mocha test --reporter spec --check-leaks --bail",
-    "postinstall": "coffee -c ."
+    // "test": "mocha test --reporter spec --check-leaks --bail",
+    // "postinstall": "coffee -c ."
   },
   "repository": {
     "type": "git",
