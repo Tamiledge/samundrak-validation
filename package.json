@@ -22,10 +22,6 @@
     "gulp-coffeelint": "^0.4.0",
     "mocha": "^2.2.4"
   },
-  "scripts": {
-    // "test": "mocha test --reporter spec --check-leaks --bail",
-    // "postinstall": "coffee -c ."
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/samundrak/samundrak-validation.git"
