@@ -1,10 +1,10 @@
 {
   "name": "samundrak-validation",
 
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Expressive schema and raw validator for nodejs/web",
   "main": "lib/validator.js",
-  "homepage": "http://indicative.adonisjs.com",
+  "homepage": "https://github.com/samundrak/samundrak-validation",
   "dependencies": {
     "async": "^0.9.0",
     "bluebird": "^2.9.14",
@@ -28,7 +28,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/AdonisJs/indicative"
+    "url": "https://github.com/samundrak/samundrak-validation.git"
   },
   "keywords": [
     "schema-validator",
